@@ -1,8 +1,9 @@
 	<?php include_once('../template/cabecera.php'); ?>
 
-	<?php include_once('../template/navegador.php'); ?> 
+	<?php include_once('../template/navegador.php'); ?>
 
-	<?php include_once('../template/sidebar.php'); ?> 
+    <?php include_once('../template/sidebar.php'); ?>      
+
 
 	<div id="page-wrapper">
 
@@ -12,7 +13,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h1 class="page-header">
-                            <small>CICENT Distrito Los Andes </small>
+                            <small>Reporte Operacional por Cliente </small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
@@ -32,69 +33,61 @@
 
                 <span class="ir-arriba"><i class="fa fa-chevron-up fa-2x"></i></span>
 
-                <div class="container-fluid">
-                    <center>
-                        <h3 class="h3"><strong> Reporte operacional por cliente </strong></h3>
-                    </center>
-                </div>
-
                 <div>fecha</div>
                 <br>
                     <div class="row">
                         <div class="dropdown col-md-3">
                           <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            Dropdown
+                            dropdown
                             <span class="caret"></span>
                           </button>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
+                          <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <li><a href=""></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#">o</a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
                           </ul>
                         </div>
                         <div class="dropdown col-md-3">
-                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Negocio
                             <span class="caret"></span>
                           </button>
-                          <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="dropdownMenu2">
+                          <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="dropdownMenu1">
                             <li><a href="#">Negocio</a></li>
                             <li><a href="#">EE/SS</a></li>
                             <li><a href="#">Electrico</a></li>
                             <li><a href="#">Industrial</a></li>
                             <li><a href="">Avión</a></li>
                             <li><a href="#">Marina</a></li>
-                            <li><a href="">Modulo pescar</a></li>
-                            <li><a href="">Cliente PDVSA</a></li>
+                            <li><a href="">Módulo fluvial</a></li>
+                            <li><a href="">Módulo integral</a></li>
+                            <li><a href="">Módulo pescar</a></li>
                           </ul>
                         </div>
                         <div class="dropdown col-md-3">
-                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Sede
                             <span class="caret"></span>
                           </button>
-                          <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="dropdownMenu3">
-                            <li><a href="#">Sede</a></li>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="">Sede</a></li>
                             <li><a href="#">El Vigia</a></li>
                             <li><a href="#">San Cristobal</a></li>
-                            <li><a href="#">La Fria</a></li>
+                            <li><a href="">La Fria</a></li>
                           </ul>
                         </div>
                         <div class="dropdown col-md-3">
-                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            Transporte
-                            <span class="caret"></span>
-                          </button>
-                          <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="dropdownMenu4">
-                            <li><a href="#">Transporte</a></li>
-                            <li><a href="#">Propio</a></li>
-                            <li><a href="#">Privado</a></li>
-                          </ul>
-                        </div>
+                            <input type="checkbox" name="vehicle" value="Car" checked> No atendidos <br>
+                            <input type="" name="vehicle" value="Car" checked> <br>
+                        </div>                        
+                        
+
                         <div class="dropdown col-md-3">
-                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Municipio
                             <span class="caret"></span>
                           </button>
@@ -143,10 +136,12 @@
                             <li><a href="">Tovar</a></li>
                             <li><a href="">Uribante</a></li>
                             <li><a href="">Zea</a></li>
+
                           </ul>
                         </div>
+                        
                         <div class="dropdown col-md-3">
-                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Estado
                             <span class="caret"></span>
                           </button>
@@ -157,13 +152,24 @@
                             <li><a href="#">Zulia</a></li>
                           </ul>
                         </div>
-                        <div class="btn-group col-md-3">
-                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            Ubicación / Ubicación
+                        <div class="dropdown col-md-3">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Transporte
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="">Transporte</a></li>
+                            <li><a href="#">Propio</a></li>
+                            <li><a href="#">Privado</a></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown col-md-3">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Ubicación / Sector
                             <span class="caret"></span>
                           </button>
                           <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="dropdownMenu7">
-                            <li><a href="#">Ubicación / Ubicaión</a></li>
+                            <li><a href="#">Ubicación / Sector</a></li>
                             <li><a href="#">Casaco Mérida</a></li>
                             <li><a href="#">Casco SCR</a></li>
                             <li><a href="#">Chiguara</a></li>
@@ -191,9 +197,6 @@
                             <li><a href="">Vía Estanques - Tovar</a></li>
                             <li><a href="">Zea Mérida</a></li>
                           </ul>
-                        </div>
-                        <div class="dropdown col-md-3">
-                            <input type="checkbox" name="vehicle" value="Bike"> No atendidos<br>
                         </div>
                     </div>
                 <br>

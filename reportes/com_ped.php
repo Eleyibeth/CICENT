@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h1 class="page-header">
-                            <small>CICENT Distrito Los Andes </small>
+                            <small>Pedidos de Combustible Programados y Despachados </small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
@@ -34,7 +34,7 @@
 
                 <div class="container-fluid">
                     <center>
-                        <h3><strong> Pedidos de combustible programados y despachados los ultimos 05 días desde: <input type="date"> hasta <input type="date"> </strong></h3>
+                        <h3><strong> Ultimos 05 días desde: <input type="date"> hasta <input type="date"> </strong></h3>
                     </center>
                 </div>
                 <br>

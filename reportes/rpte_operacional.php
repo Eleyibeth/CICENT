@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h1 class="page-header">
-                            <small>CICENT Distrito Los Andes </small>
+                            <small>Reporte Operacional del Distrito Andes </small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
@@ -31,12 +31,6 @@
                 </div>
                 
                 <span class="ir-arriba"> <i class="fa fa-chevron-up fa-2x"></i></span>
-
-                <div class="container-fluid">
-                    <center>
-                        <h3 class="h3"><strong> Reporte operacional del distrito Andes </strong></h3>
-                    </center>
-                </div>
                 
                 <div>
                     fecha

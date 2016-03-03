@@ -1,6 +1,6 @@
        
-        <nav class="menu">
-            <div class="container-fluid row">
+        <nav >
+            <div class="container-fluid form-group row">
                 <div class="col-xs-12 col-sm-12 col-md-12" >
                         <ul class="nav nav-tabs nav-justified">
                 	        <li role='presentation' class="text-center"><a href="../reportes/pedidos.php"> Pedidos</a></li>

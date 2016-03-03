@@ -7,9 +7,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
             </div>
+                <a class="navbar-brand" href="../inicio/index.php"> <img src="../img/pdvsa-logo.png" width="78" alt="logo-PDVSA"></a>
                 </button>
-                <a class="navbar-brand" href="../inicio/index.php"> <img src="../img/pdvsa-logo.png" width="78" alt="logo-PDVSA"></a> 
-        
     
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -112,5 +111,7 @@
                     </ul>
                 </li>
             </ul>
+            <h4 class="text-center" style="color: #ff0000;"><strong> Sala CICENT Distrito Andes <small style="color: #ff0000;" >Empresa Nacional de Transporte</small></strong></h4>
+
         </div>
     </nav>

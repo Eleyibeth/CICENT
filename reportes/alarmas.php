@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h1 class="page-header">
-                            <small>CICENT Distrito Los Andes </small>
+                            <small>Reporte de Alarmas de Exceso de Velocidad según Sistema GTR-MAX en Distrito Andes </small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
@@ -29,260 +29,172 @@
                 <div class="container-fluid row">
                 	<?php include_once('../template/nav_reportes.php') ?>
                 </div>
-
-                <div class="container-fluid">
-                    <center>
-                        <h3 class="h31"><strong> Reporte de alarmas de exceso de velocidad según sistema GTRMAX en distrito Andes </strong></h3>
-                    </center>
-                </div>
                 <br>
                 
                 <div class="row">
                     <div class="table-responsive">
-                        <div class="col-md-3">
+                        <center>
                             <table class="table table-bordered  table-condensed table-hover">
                                 <tr align="center">
-                                    <th colspan="4" class="text-center" style="background-color: #FF0000; color: #fff;">ENT Propio El Vigia</th>
+                                    <th colspan="4" class="text-center col-md-3" style="background-color: #D30000;">ENT Propio El Vigia</th>
+                                    <th colspan="4" class="text-center col-md-3">ENT Propio San Cristobal</th>
+                                    <th colspan="4" class="text-center col-md-3" style="background-color: #D30000;">ENT Propio La Fría</th>
+                                    <th colspan="4" class="text-center col-md-1">Terceros</th>
+                                    <th class="col-md-1">EVG</th>
+                                    <th class="col-md-1">SCR</th>
                                 </tr>
-                                <tr align="center">
-                                    <th>Total unidades con alertas:</th>
-                                    <td colspan="2"></td>
+                                <tr>
+                                    <th colspan="3" class="col-md-1" style="background-color: #D30000;">Total unidades con alertas:</th>
+                                    <td class="col-md-2" style="background-color: #c9c9c9;" ></td>
+                                    <th colspan="3" class="col-md-1">Total unidades con alertas:</th>
+                                    <td class="col-md-2"></td>
+                                    <th colspan="3" class="col-md-1" style="background-color: #D30000;">Total unidades con alertas:</th>
+                                    <td class="col-md-2" style="background-color: #c9c9c9;" ></td>
+                                    <th colspan="4" class="col-md-1">Total unidades con alertas:</th>
+                                    <td class="col-md1"></td>
+                                    <td class="col-md1"></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3" style="background-color: #D30000;" >Promedio de velocidad de unidades:</th>
+                                    <td style="background-color: #c9c9c9;" ></td>
+                                    <th colspan="3">Promedio de velocidad de unidades:</th>
+                                    <td></td>
+                                    <th colspan="3" style="background-color: #D30000;" >Promedio de velocidad de unidades:</th>
+                                    <td style="background-color: #c9c9c9;" ></td>
+                                    <th colspan="4">Promedio de velocidad de unidades:</th>
+                                    <td></td>
                                     <td></td>
                                 </tr>
-                                <tr align="center">
-                                    <th>Promedio de velocidad de unidades:</th>
-                                    <td colspan="2"></td>
+                                <tr>
+                                    <th colspan="3" style="background-color: #D30000;" >Unidad con maximo de alertas:</th>
+                                    <td style="background-color: #c9c9c9;" ></td>
+                                    <th colspan="3">Unidad con maximo de alertas:</th>
+                                    <td></td>
+                                    <th colspan="3" style="background-color: #D30000;" >Unidad con maximo de alertas:</th>
+                                    <td style="background-color: #c9c9c9;" ></td>
+                                    <th colspan="4">Unidad con maximo de alertas:</th>
+                                    <td></td>
                                     <td></td>
                                 </tr>
-                                <tr align="center">
-                                    <th>Unidad con maximo de alertas:</th>
-                                    <td colspan="2"></td>
+                                <tr>
+                                    <th colspan="3" style="background-color: #D30000;" >Unidad con velocidad maxima alcanzada:</th>
+                                    <td style="background-color: #c9c9c9;" ></td>
+                                    <th colspan="3">Unidad con velocidad maxima alcanzada:</th>
+                                    <td></td>
+                                    <th colspan="3" style="background-color: #D30000;" >Unidad con velocidad maxima alcanzada:</th>
+                                    <td style="background-color: #c9c9c9;" ></td>
+                                    <th colspan="4">Unidad con velocidad maxima alcanzada:</th>
+                                    <td></td>
                                     <td></td>
                                 </tr>
-                                <tr align="center">
-                                    <th>Unidad con velocidad maxima alcanzada:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
+                                <tr>
+                                        <th rowspan="2" style="background-color: #D30000;">Estatus de unidad</th>
+                                        <th style="background-color: #D30000;" >Reporta</th>
+                                        <th style="background-color: #D30000;" >No repo</th>
+                                        <td style="background-color: #c9c9c9;"></td>
+                                        <th rowspan="2">Estatus de unidad</th>
+                                        <th>Reporta</th>
+                                        <th>No repo</th>
+                                        <td></td>
+                                        <th rowspan="2" style="background-color: #D30000;">Estatus de unidad</th>
+                                        <th style="background-color: #D30000;" >Reporta</th>
+                                        <th style="background-color: #D30000;" >No repo</th>
+                                        <td style="background-color: #c9c9c9;" ></td>
+                                        <th colspan="2" rowspan="2">Estatus de unidad</th>
+                                        <th>Reporta</th>
+                                        <th>No repo</th>
+                                        <td></td>
+                                        <td></td>
                                 </tr>
-                                <tr align="center">
-                                    <th rowspan="2">Estatus de unidades</th>
-                                    <td>Reporta</td>
-                                    <td>No reporta</td>
+                                <tr>
+                                    <td style="background-color: #c9c9c9;" ></td>
+                                    <td style="background-color: #c9c9c9;" ></td>
+                                    <td style="background-color: #c9c9c9;" ></td>
                                     <td></td>
-                                </tr>
-                                <tr align="center">
+                                    <td></td>
+                                    <td></td>
+                                    <td style="background-color: #c9c9c9;" ></td>
+                                    <td style="background-color: #c9c9c9;" ></td>
+                                    <td style="background-color: #c9c9c9;" ></td>
+                                    <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
                                 </tr>
                                 
                             </table>
+                        </center>
                             <br>
 
+                        <center>
                             <table class="table table-bordered  table-condensed table-hover">
                                 <tr>
-                                    <th class="text-center" style="background-color: #FF0000; color: #fff;">Acciones tomadas sobre alarmas</th>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                </tr>
-                            </table>
-                            <br>
-                            
-
-                                <table class="table table-bordered  table-condensed table-hover">
-                                    <th class="text-center" style="font-size: 11.5px;">Operador</th>
-                                    <th class="text-center" style="font-size: 11.5px;">Unidad</th>
-                                    <th class="text-center" style="font-size: 11.5px;">N° Alertas</th>
-                                    <th class="text-center" style="font-size: 11.5px;">Max Veloc</th>
-                                    <th class="text-center" style="font-size: 11.5px;">Sede</th>
-                                </table>
-                            
-                        </div>
-                        
-                        <div class="col-md-3">
-                            <table class="table table-bordered  table-condensed table-hover">
-                                <tr align="center">
-                                    <th colspan="4" class="text-center">ENT Propio San Cristobal</th>
-                                </tr>
-                                <tr align="center">
-                                    <th>Total unidades con alertas:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <th>Promedio de velocidad de unidades:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <th>Unidad con maximo de alertas:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <th>Unidad con velocidad maxima alcanzada:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <th rowspan="2">Estatus de unidades</th>
-                                    <td>Reporta</td>
-                                    <td>No reporta</td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                
-                            </table>
-                            <br>
-                            
-                            <table class="table table-bordered  table-condensed table-hover">
-                                <tr>
+                                    <th class="text-center" style="background-color: #D30000;">Acciones tomadas sobre alarmas</th>
+                                    <th class="text-center">Acciones tomadas sobre alarmas</th>
+                                    <th class="text-center" style="background-color: #D30000;">Acciones tomadas sobre alarmas</th>
                                     <th class="text-center">Acciones tomadas sobre alarmas</th>
                                 </tr>
                                 <tr>
+                                    <td style="background-color: #c9c9c9;" ></td>
+                                    <td></td>
+                                    <td style="background-color: #c9c9c9;" ></td>
                                     <td></td>
                                 </tr>
                             </table>
+                        </center>
                             <br>
                             
-                                <table class="table table-bordered  table-condensed table-hover">
+                        <center>
+                            <table class="table table-bordered  table-condensed table-hover">
+                                <tr>
+                                    <th class="text-center" style="font-size: 11.5px; background-color: #D30000;">Operador</th>
+                                    <th class="text-center" style="font-size: 11.5px;background-color: #D30000;">Unidad</th>
+                                    <th class="text-center" style="font-size: 11.5px;background-color: #D30000;">N° Alertas</th>
+                                    <th class="text-center" style="font-size: 11.5px;background-color: #D30000;">Max Veloc</th>
+                                    <th class="text-center" style="font-size: 11.5px;background-color: #D30000;">Sede</th>
                                     <th class="text-center" style="font-size: 11.5px;">Operador</th>
                                     <th class="text-center" style="font-size: 11.5px;">Unidad</th>
                                     <th class="text-center" style="font-size: 11.5px;">N° Alertas</th>
                                     <th class="text-center" style="font-size: 11.5px;">Max Veloc</th>
                                     <th class="text-center" style="font-size: 11.5px;">Sede</th>
-                                </table>
-                            
-                        </div>
-                        
-                        <div class="col-md-3">
-                            <table class="table table-bordered  table-condensed table-hover">
-                                <tr align="center">
-                                    <th colspan="4" class="text-center" >ENT Propio El Vigia</th>
-                                </tr>
-                                <tr align="center">
-                                    <th>Total unidades con alertas:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <th>Promedio de velocidad de unidades:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <th>Unidad con maximode alertas:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <th>Unidad con velocidad maxima alcanzada:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <th rowspan="2">Estatus de unidades</th>
-                                    <td>Reporta</td>
-                                    <td>No reporta</td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                
-                            </table>
-                            <br>
-                            
-                            <table class="table table-bordered  table-condensed table-hover">
-                                <tr>
-                                    <th class="text-center" >Acciones tomadas sobre alarmas</th>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                </tr>
-                            </table>
-                            <br>
-                            
-
-                                <table class="table table-bordered  table-condensed table-hover">
+                                    <th class="text-center" style="font-size: 11.5px;background-color: #D30000;">Operador</th>
+                                    <th class="text-center" style="font-size: 11.5px;background-color: #D30000;">Unidad</th>
+                                    <th class="text-center" style="font-size: 11.5px;background-color: #D30000;">N° Alertas</th>
+                                    <th class="text-center" style="font-size: 11.5px;background-color: #D30000;">Max Veloc</th>
+                                    <th class="text-center" style="font-size: 11.5px;background-color: #D30000;">Sede</th>
                                     <th class="text-center" style="font-size: 11.5px;">Operador</th>
                                     <th class="text-center" style="font-size: 11.5px;">Unidad</th>
                                     <th class="text-center" style="font-size: 11.5px;">N° Alertas</th>
                                     <th class="text-center" style="font-size: 11.5px;">Max Veloc</th>
                                     <th class="text-center" style="font-size: 11.5px;">Sede</th>
-                                </table>
-                            
-                        </div>
-                        
-                        <div class="col-md-3">
-                            <table class="table table-bordered  table-condensed table-hover">
-                                <tr align="center">
-                                    <th colspan="4" class="text-center">ENT Propio El Vigia</th>
-                                </tr>
-                                <tr align="center">
-                                    <th>Total unidades con alertas:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <th>Promedio de velocidad de unidades:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <th>Unidad con maximode alertas:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <th>Unidad con velocidad maxima alcanzada:</th>
-                                    <td colspan="2"></td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <th rowspan="2">Estatus de unidades</th>
-                                    <td>Reporta</td>
-                                    <td>No reporta</td>
-                                    <td></td>
-                                </tr>
-                                <tr align="center">
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                
-                            </table>
-                            <br>
-                            
-                            <table class="table table-bordered  table-condensed table-hover">
-                                <tr>
-                                    <th class="text-center">Acciones tomadas sobre alarmas</th>
                                 </tr>
                                 <tr>
+                                    <td style="background-color: #C9C9C9;"></td>
+                                    <td style="background-color: #C9C9C9;"></td>
+                                    <td style="background-color: #C9C9C9;"></td>
+                                    <td style="background-color: #C9C9C9;"></td>
+                                    <td style="background-color: #C9C9C9;"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td style="background-color: #C9C9C9;"></td>
+                                    <td style="background-color: #C9C9C9;"></td>
+                                    <td style="background-color: #C9C9C9;"></td>
+                                    <td style="background-color: #C9C9C9;"></td>
+                                    <td style="background-color: #C9C9C9;"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                     <td></td>
                                 </tr>
                             </table>
-                            <br>
+                        </center>
+                                <span class="ir-arriba"><i class="fa fa-chevron-up fa-2x"></i></span>
                             
-
-                                <table class="table table-bordered  table-condensed table-hover">
-                                    <th class="text-center" style="font-size: 11.5px;">Operador</th>
-                                    <th class="text-center" style="font-size: 11.5px;">Unidad</th>
-                                    <th class="text-center" style="font-size: 11.5px;">N° Alertas</th>
-                                    <th class="text-center" style="font-size: 11.5px;">Max Veloc</th>
-                                    <th class="text-center" style="font-size: 11.5px;">Sede</th>
-                                </table>
-                            
-                        </div>
                     </div>
-                <span class="ir-arriba"><i class="fa fa-chevron-up fa-2x"></i></span>
                 </div>
 
                 

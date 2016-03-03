@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h1 class="page-header">
-                            <small>CICENT Distrito Los Andes </small>
+                            <small>Reporte de Monitoreo de Entradas y Salidas de U.T.C. Programadas en DTTO Andes </small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
@@ -31,12 +31,6 @@
                 </div>
                 
                 <span class="ir-arriba"><i class="fa fa-chevron-up fa-2x"></i></span>
-
-                <div class="container-fluid">
-                    <center>
-                        <h3 class="h31"><strong> Reporte de monitoreo de entradas y salidas de U.T.C. programadas en DTTO Andes </strong></h3>
-                    </center>
-                </div>
 
                 <div>fecha</div>
                 <br>

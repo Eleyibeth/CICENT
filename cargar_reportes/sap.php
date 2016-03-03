@@ -13,7 +13,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            <small>CICENT Distrito Los Andes </small>
+                            <small>Cargar Información SAP</small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
