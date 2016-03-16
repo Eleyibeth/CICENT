@@ -15,7 +15,7 @@
 
                         <h1 class="page-header">
                          
-                            <small>Sala CICENT Distrito Los Andes </small>
+                            <small>Certificación de Cisternas</small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">

@@ -15,7 +15,7 @@
 
                         <h1 class="page-header">
                          
-                            <small>Sala CICENT Distrito Los Andes </small>
+                            <small>Estatus de Unidades en Talleres Externos DTTO Andes</small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
@@ -26,18 +26,13 @@
                             </li>
                         </ol>
                     </div>
-                </div>
-                <br>
-                
+                </div>                
                 <div class="container-fluid">
                     <center>
                         <h3><strong> Estatus de unidades en talleres externos DTTO Andes 
-                        Actualizado: <br>Fecha: <input type="date">  Hora: <input type="time"></strong></h3>
-                        boton
+                        Actualizado: <br>Fecha: <input type="date">  Hora: <input type="time"></strong> boton</h3>
                     </center>
                 </div>
-                <br>
-
                 <div class="row">
                     <div class="table-responsive container-fluid">
                         <table class=" table table-bordered table-condensed table-hover">

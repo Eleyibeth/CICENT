@@ -15,7 +15,7 @@
 
                         <h1 class="page-header">
                          
-                            <small>Sala CICENT Distrito Los Andes </small>
+                            <small>Gerencia de Control y Evaluación de Gestion Clientes a Nivel Nacional</small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
@@ -30,38 +30,63 @@
                 <br>
 
                 <div class="row">
-                    <div class="table-responsive col-md-0.41">
-                        <table class=" table table-bordered table-condensed table-hover">
+                    <div class="table-responsive">
+                        <table class="table table-bordered  table-condensed table-hover text-center">
                             <tr>
-                                <th>N°</th>
-                                <th>Código</th>
-                                <th>Nombre comercial actual del cliente</th>
-                                <th>Tipo de negocio</th>
-                                <th>Planta</th>
-                                <th>Distrito</th>
-                                <th>Sede</th>
-                                <th>Estrategia</th>
-                                <th>Estado</th>
-                                <th>Municipio</th>
-                                <th>Parroquia</th>
-                                <th>Tipo de transporte</th>
-                                <th>Nombre del transporte</th>
-                                <th>Ubicación</th>
-                                <th>Despachos promedio mensual</th>
-                                <th>Tipo de mercado</th>
-                                <th>Hora promedio de llegada desde planta al cliente</th>
-                                <th>Estatus del cliente</th>
-                                <th>Edad de tanques (años)</th>
-                                <th>Tipo de tanque</th>
-                                <th>GSP91</th>
-                                <th>GSP95</th>
+                                <th rowspan="2">N°</th>
+                                <th rowspan="2">Código</th>
+                                <th rowspan="2">Nombre comercial actual del cliente</th>
+                                <th rowspan="2">Tipo de negocio</th>
+                                <th rowspan="2">Planta</th>
+                                <th rowspan="2">Distrito</th>
+                                <th rowspan="2">Sede</th>
+                                <th rowspan="2">Estrategia</th>
+                                <th rowspan="2">Estado</th>
+                                <th rowspan="2">Municipio</th>
+                                <th rowspan="2">Parroquia</th>
+                                <th rowspan="2">Tipo de transporte</th>
+                                <th rowspan="2">Nombre del transporte</th>
+                                <th rowspan="2">Ubicación</th>
+                                <th rowspan="2">Despachos promedio mensual</th>
+                                <th rowspan="2">Tipo de mercado</th>
+                                <th rowspan="2">Hora promedio de llegada desde planta al cliente</th>
+                                <th colspan="2">Estatus del cliente</th>
+                                <th rowspan="2">Edad de tanques (años)</th>
+                                <th rowspan="2">Tipo de tanque</th>
+                                <th colspan="2">GSP91</th>
+                                <th colspan="2">GSP95</th>
+                                <th colspan="2">Diesel</th>
+                                <th colspan="2">Total</th>
+                                <th colspan="4">Promedio de ventas 2012 (Litros/Mes)</th>
+                                <th colspan="3">Islas de gasolina</th>
+                                <th colspan="3">Islas de Diesel</th>
+                                <th colspan="2">Coordenadas geograficas</th>
+                                <th rowspan="2">Observaciones</th>
+                            </tr>
+                            <tr>
+                                <th>Activa</th>
+                                <th>Inactiva</th>
+                                <th>N° Tanq</th>
+                                <th>Cap</th>
+                                <th>N° Tanq</th>
+                                <th>Cap</th>
+                                <th>N° Tanq</th>
+                                <th>Cap</th>
+                                <th>N° Tanq</th>
+                                <th>Cap</th>
+                                <th>96</th>
+                                <th>91</th>
                                 <th>Diesel</th>
                                 <th>Total</th>
-                                <th>Promedio de ventas 2012 (Litros/Mes)</th>
-                                <th>Islas de gasolina</th>
-                                <th>Islas de Diesel</th>
-                                <th>Coordenadas geograficas</th>
-                                <th>Observaciones</th>
+                                <th>N° Islas</th>
+                                <th>N° Surtidor</th>
+                                <th>N° Picos</th>
+                                <th>N° Islas</th>
+                                <th>N° Surtidores</th>
+                                <th>N° Picos</th>
+                                <th>Latitud</th>
+                                <th>Longitud</th>
+
                             </tr>
                             <tr>
                                 <td></td>

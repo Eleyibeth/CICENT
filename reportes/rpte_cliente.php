@@ -22,7 +22,9 @@
                             <li class="active">
                             	<small><i class="fa fa-files-o fa-2x"></i></small><a href="../reportes/reportes.php"> Reportes</a>
                             </li>
-                            <li class="active"><small><i class="fa fa-list-alt fa-2x"></i></small> Reporte operacional</li>
+                            <li class="active">
+                                <small><i class="fa fa-list-alt fa-2x"></i></small> Reporte operacional
+                            </li>
                         </ol>
                     </div>
                 </div>
@@ -33,7 +35,9 @@
 
                 <span class="ir-arriba"><i class="fa fa-chevron-up fa-2x"></i></span>
 
-                <div>fecha</div>
+                <div class="boton11" >
+                    <a href="../reportes/estatus.php">  <button class="btn btn-default boton1" >  Estatus </button>  <i class="fa fa-chevron-right fa-2x"></i></a>
+                </div>
                 <br>
                     <div class="row">
                         <div class="dropdown col-md-3">
@@ -52,11 +56,11 @@
                           </ul>
                         </div>
                         <div class="dropdown col-md-3">
-                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Negocio
                             <span class="caret"></span>
                           </button>
-                          <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="dropdownMenu1">
+                          <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="dropdownMenu3">
                             <li><a href="#">Negocio</a></li>
                             <li><a href="#">EE/SS</a></li>
                             <li><a href="#">Electrico</a></li>
@@ -69,25 +73,20 @@
                           </ul>
                         </div>
                         <div class="dropdown col-md-3">
-                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Sede
                             <span class="caret"></span>
                           </button>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
                             <li><a href="">Sede</a></li>
                             <li><a href="#">El Vigia</a></li>
                             <li><a href="#">San Cristobal</a></li>
                             <li><a href="">La Fria</a></li>
                           </ul>
                         </div>
+                           
                         <div class="dropdown col-md-3">
-                            <input type="checkbox" name="vehicle" value="Car" checked> No atendidos <br>
-                            <input type="" name="vehicle" value="Car" checked> <br>
-                        </div>                        
-                        
-
-                        <div class="dropdown col-md-3">
-                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Municipio
                             <span class="caret"></span>
                           </button>
@@ -136,16 +135,14 @@
                             <li><a href="">Tovar</a></li>
                             <li><a href="">Uribante</a></li>
                             <li><a href="">Zea</a></li>
-
                           </ul>
                         </div>
-                        
                         <div class="dropdown col-md-3">
-                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Estado
                             <span class="caret"></span>
                           </button>
-                          <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="dropdownMenu6">
+                          <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="dropdownMenu5">
                             <li><a href="#">Estado</a></li>
                             <li><a href="#">Mérida</a></li>
                             <li><a href="#">Táchira</a></li>
@@ -153,18 +150,18 @@
                           </ul>
                         </div>
                         <div class="dropdown col-md-3">
-                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Transporte
                             <span class="caret"></span>
                           </button>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu6">
                           <li><a href="">Transporte</a></li>
                             <li><a href="#">Propio</a></li>
                             <li><a href="#">Privado</a></li>
                           </ul>
                         </div>
                         <div class="dropdown col-md-3">
-                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Ubicación / Sector
                             <span class="caret"></span>
                           </button>
@@ -198,8 +195,12 @@
                             <li><a href="">Zea Mérida</a></li>
                           </ul>
                         </div>
+                        <div class="dropdown col-md-3">
+                            <input type="checkbox" name="" value=""> No Atendidos<br>
+                            <input type="" name="" value="" style="width: 20%; height: 20px;"><br>
+                        </div>
                     </div>
-                <br>
+                
                 <div class="row">
                     <div class="table-responsive">
                         <table class="table table-bordered  table-condensed table-hover text-center">
@@ -239,6 +240,32 @@
                                 <th>Vol desp</th>
                                 <th>Vol prog</th>
                                 <th>Vol desp</th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </table>
                     </div>

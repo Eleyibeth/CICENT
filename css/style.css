@@ -37,3 +37,15 @@ th{
 	width: 800px;
 	margin-left: 15%;
 }
+
+.boton{
+	margin: 0 auto;
+	width: 20%;
+}
+.boton11{
+	float: right;
+}
+
+.boton1{
+	 box-shadow:  3px  3px 3px #888888;
+}
