@@ -10,9 +10,15 @@
 			<a href="#" class="navbar-brand">Project name</a>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#"></a></li>
-					<li><a href="#about">about</a></li>
-					<li><a href="#contact">contact</a></li>
+					<li class="active">
+						<a href="#">Home</a></li>
+					<li>
+						<a href="#about">about</a>
+					</li>
+					<li>
+						<a href="#contact">contact</a>
+					</li>
+					<li><a href="logout.php">logout</a></li>
 				</ul>
 			</div><!-- /.nav-collapse-->
 		</div>

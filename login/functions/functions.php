@@ -223,6 +223,7 @@ function validate_user_login(){
 		
 		$email    = clean($_POST['email']);
 		$password = clean($_POST['password']);
+		$remember = isset($_POST['remember']);
 
 		if (empty($email)) {
 			$errors[] = "email field cannot be empty";
@@ -237,10 +238,10 @@ function validate_user_login(){
 				echo validation_errors($error);
 			}
 		} else{
-			if (login_user($email, $password)) {
+			if (login_user($email, $password, $remember)) {
 				redirect("admin.php");
 			} else{
-				echo validation_code("your credentials are not correct");
+				echo validation_errors("your credentials are not correct");
 			}
 		}
 	}
@@ -249,13 +250,94 @@ function validate_user_login(){
 
 /******* user login function *******/
 
-function login_user($email, $password){
-	$sql = "SELECT password, id FROM users WHERE email = '".escape($email)."'";
+function login_user($email, $password, $remember){
+	$sql = "SELECT password, id FROM users WHERE email = '".escape($email)."' AND active = 1";
 	$result = query($sql);
 	if (row_count($result) == 1) {
-		$row = fetch_array($sql);
-		$db_password
-		
+		$row = fetch_array($result);
+		$db_password = $row['password'];
+
+		if (md5($password) === $db_password) {
+
+			if ($remember == "on") {
+				setcookie('email', $email, time() + 86400);
+			}
+			$_SESSION['email'] = $email;
+			return true;
+		} else{
+			return false;
+		}
+
 		return true;
+	} else{
+		return false;
+	}
+}//funtion
+
+/******* logged  in function *******/
+
+function logged_in(){
+	if (isset($_SESSION['email']) || isset($_COOKIE['email'])) {
+		return true;
+	} else{
+		return false;
+	}
+}//function
+
+/******* recover  in function *******/ 
+
+function recover_password(){
+	if ($_SERVER['REQUEST_METHOD'] == "POST") {
+		
+		if (isset($_SESSION['token']) && $_POST['token'] === $_SESSION['token']) {
+			$email = clean($POST['email']);
+
+			if (email_exists($email)) {
+				$validation_code = md5($email + microtime());
+
+				setcookie('temp_access_code', $validation_code, time()+ 60);
+
+				$sql = "UPDATE users SET validation_code = '".escape($validation_code)."' WHERE email = '".escape($email)."'";
+				$result = query($sql);
+				confirm($result);
+				
+				$subject = "please reset your password";
+				$message = "here is your password rest code {validation_code} click here to reset your password http//localhost/proyectos/CICENT/login/code.php?email=$email&code=$validation_code";
+				$headers = "From: noreplyQyoutwebsite.com";
+
+				if (!send_email($email, $subject, $message, $headers)){
+					echo validation_code("Email could not be sent");
+
+				}
+				set_message("<p class='bg-success text-center'>please your email orcheck span folder a password reset code </p> ");
+				redirect("index.php");
+			} else{
+				echo validation_code("Email could not be sent");
+			}
+		} else{
+			redirect("index.php")
+			}
+
+		//token checks
+	}//post request
+}//function
+
+/******* Code validation *******/ 
+
+function validate_code(){
+	if (isset($_COOKIE['temp_access_code'])) {
+
+		if (!isset($_GET['email']) && !isset($_GET['code'])) {
+			redirect("index.php");
+				
+		} else if (empty($_GET['email']) || empty($_GET['code'])) {
+			redirect("index.php")
+		}
+	} else{
+		if (isset($_POST['code'])) {
+			echo "getting post from form";
+		}
+		set_message("<p class='bg-danger text-center'>sorry your validation cookie was expired </p> ");
+		redirect("recover.php");
 	}
 }

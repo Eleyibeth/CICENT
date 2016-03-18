@@ -27,19 +27,28 @@
 						<div class="col-lg-12">
 							<form action="" id="login-form" method="" role="form" style="display: ">
 								<div class="form-group">
-									<input type="text" id="email" tabindex="1">
+									<input type="text" id="email" tabindex="1" class="form-control" placeholder="email" required>
 								</div>
 								<div class="form-group">
-									<input type="password" id="login-password" tabindex="2" class="form-control">
+									<input type="password" name="password" id="login-password" tabindex="2" class="form-control" placeholder="password" required>
 								</div>
 								<div class="form-group text-center">
-									<input type="checkbox" tabindex="3">
+									<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
 									<label for="remember">remember me</label>
 								</div>
 								<div class="form-group">
 									<div class="row">
-										<div class="col-sm-6">
-											<input type="submit">
+										<div class="col-sm-6 col-sm-offset-3">
+											<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="btn">
+										</div>
+									</div>
+								</div>
+								<div class="form-control">
+									<div class="row">
+										<div class="col-lg-12">
+											<div class="text-center">
+												<a href="recover.php" tabindex="5" class="forgot-password">forgot password?</a>
+											</div>
 										</div>
 									</div>
 								</div>
