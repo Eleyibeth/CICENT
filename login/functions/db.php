@@ -1,4 +1,4 @@
-<?php  
+ <?php  
 
 $con = mysqli_connect('localhost', 'root', '', 'login_db');
 
@@ -19,7 +19,9 @@ function query($query){
 
 	global $con;
 
-	return mysqli_query ($con, $query);
+	$result = mysqli_query ($con, $query);
+	confirm($result);
+	return $result;
 
 }
 

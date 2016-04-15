@@ -28,7 +28,7 @@
                         </ol>
                     </div>
                 </div>
-                <div class="container-fluid">
+                <div class="container-fluid row">
                     <?php include_once('../template/nav_carg_info.php') ?>
                     
                     <br>
@@ -42,9 +42,13 @@
 
                                 <br>
                                 
-                                <h2 class="text-center"><small>Cargar Archivo del GTR-MAX</small><br>ALAR-GTR</h2>
+                                <h2 class="text-center"><small>Sistema de Seguimiento</small><br>ALAR-GTR</h2>
 
                                 <br>
+                                <br>
+                                <div class="boton">
+                                    <input type="submit" value="Enviar" class="btn btn-danger btn-lg btn-block active">
+                                </div>
                             </div>
                         </form>
                     </div>

@@ -1,4 +1,10 @@
 <?php include_once('../login/includes/header.php'); ?>
+<?php 
+	if (logged_in()) {
+		redirect("admin.php");
+	}
+
+ ?>
 
 <?php include_once('../login/includes/nav.php'); ?>
 	<div class="row">
@@ -17,7 +23,7 @@
 							<a href="login.php" class="active" id="login-form-link">login</a>
 						</div>
 						<div class="col-xs-6">
-							<a href="registre.php" id="">register</a>
+							<a href="registre.php" id="">Register</a>
 						</div>
 					</div>
 					<hr>
@@ -25,7 +31,7 @@
 				<div class="panel-body">
 					<div class="row">
 						<div class="col-lg-12">
-							<form action="" id="login-form" method="" role="form" style="display: ">
+							<form action="" id="login-form" method="" role="form" >
 								<div class="form-group">
 									<input type="text" id="email" tabindex="1" class="form-control" placeholder="email" required>
 								</div>

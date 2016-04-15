@@ -1,3 +1,4 @@
+    <?php include_once('../template/cabecera.php'); ?>
 	<?php include_once('../template/cabecera.php'); ?>
 
 	<?php include_once('../template/navegador.php'); ?>
@@ -31,7 +32,7 @@
                         </ol>
                     </div>
                 </div>
-                <a href="../reportes/rpte_cliente.php"><i class="fa fa-chevron-left fa-2x"></i> Volver</a>
+                <a href="../reportes/rpte_cliente.php"><i class="fa fa-chevron-left fa-2x"></i> </a>
 
                 <div class="row">
                         <h2 class="text-center"><small>Estatus de Pedidos Distrito Andes (fecha) (Hora)</small></h2>

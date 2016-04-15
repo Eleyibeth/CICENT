@@ -5,7 +5,7 @@
 <div class="jumbotron">
 
 	<?php display_message(); ?>
-	<h1 class="text-center">Home</h1>
+	<!--		<h1 class="text-center"> PDVSA ENT (Empresa nacional de Transporte) </h1> -->
 </div>
 
 

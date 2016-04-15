@@ -32,6 +32,7 @@
                     <?php include_once('../template/nav_carg_info.php') ?>
 
                     <br>
+                    
                     <div class="container-fluid">
 
                         <form action="" method="">
@@ -42,10 +43,14 @@
 
                                 <br>
                                     
-                                <h2 class="text-center"><small>Reporte de Despacho</small><br>SCLI DESP
+                                <h2 class="text-center"><small>Reporte de Despacho SCLI</small><br>SCLI DESP
                                 </h2>
 
                                 <br>
+                                <br>
+                                <div class="boton">
+                                    <input type="submit" value="Enviar" class="btn btn-danger btn-lg btn-block active">
+                                </div>
                             </div>
                         </form>
                     </div>

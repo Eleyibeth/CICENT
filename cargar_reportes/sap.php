@@ -28,7 +28,7 @@
                         </ol>
                     </div>
                 </div>
-                <div class="container-fluid">
+                <div class="container-fluid row">
                     <?php include_once('../template/nav_carg_info.php') ?>
                     
                     <br>
@@ -47,6 +47,7 @@
 
                                 <br>
                             </div>
+
                             <div class="col-xs-4 col-sm-4 col-md-4">
                                 <input type="image"  name="" src="../img/azul.jpg" alt="logo_upload_scli" class="img-circle img-responsive center-block">
 
@@ -57,6 +58,7 @@
 
                                 <br>
                             </div>
+
                             <div class="col-xs-4 col-sm-4 col-md-4">
                                 <input type="image"  name="submit" value="" src="../img/azul.jpg" alt="logo_upload_scli" class="img-circle img-responsive center-block">
 
@@ -66,6 +68,12 @@
                                 </h2>
 
                                 <br>
+                                <br>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="botone col-md-4">
+                                <input type="submit" value="Enviar" class="btn btn-danger btn-lg btn-block active">
                             </div>
                         </form>
                     </div>

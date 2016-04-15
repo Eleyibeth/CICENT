@@ -49,3 +49,9 @@ th{
 .boton1{
 	 box-shadow:  3px  3px 3px #888888;
 }
+.botone{
+	margin: 0 auto;
+	width: 20%;
+	margin-left:6em;
+}
+

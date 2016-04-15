@@ -31,6 +31,9 @@
                                 <li>
                                     <a href="../reportes/estatus_gps.php"><i class="fa fa-map-marker"></i> Estatus GPS </a>
                                 </li>
+                                <li>
+                                    <a href="../reportes/info_ala.php"><i class="fa fa-tag"></i> Información Alarmas </a>
+                                </li>
                             </ul>
                     </li>
                     <li>

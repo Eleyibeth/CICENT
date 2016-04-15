@@ -15,14 +15,14 @@
 
                         <h1 class="page-header">
                          
-                            <small>Gerencia de Control y Evaluación de Gestion Clientes a Nivel Nacional</small>
+                            <small>Gerencia de Control y Evaluación de Gestion Clientes a Nivel Nacional <small> _______________________________</small> <small> <a href="../estandar/actualizar_clientes.php" class="btn btn-danger active"> Actualizar</a> </small></small>
                         </h1>
                         <ol class="breadcrumb">
                             <li class="active">
                                 <small><i class="fa fa-home fa-2x"></i></small><a href="../inicio/index.php"> Inicio </a>
                             </li>
                             <li class="active">
-                                <small><i class="fa fa-users fa-2x"></i></small> Clientess
+                                <small><i class="fa fa-users fa-2x"></i></small> Clientes
                             </li>
                         </ol>
                     </div>

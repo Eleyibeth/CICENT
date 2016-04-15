@@ -45,6 +45,10 @@
                                 <h2 class="text-center"><small>Cargar Archivo del Presinto</small><br>ALAR-PRE</h2>
 
                                 <br>
+                                <br>
+                                <div class="boton">
+                                    <input type="submit" value="Enviar" class="btn btn-danger btn-lg btn-block active">
+                                </div>
                             </div>
                         </form>
                     </div>
