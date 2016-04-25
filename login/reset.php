@@ -1,7 +1,7 @@
 <?php include_once('../login/includes/header.php'); ?>
 
 <div class="row">
-	<div class="col-lg-6 col-lg-offset-3">
+	<div class="col-md-6 col-md-offset-3">
 	<?php display_message(); ?>
 	<?php password_reset(); ?>
 	</div>
@@ -20,7 +20,7 @@
 			</div>
 			<div class="panel-body">
 				<div class="row">
-					<div class="col-lg-12">
+					<div class="col-md-12">
 						<form action="" id="register-form" method="post" role="form">
 							<div class="form-group">
 								<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="password" required>

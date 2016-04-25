@@ -3,7 +3,7 @@
 session_start();
 
 
-include_once('db.php');
-include_once('functions.php');
+include_once('../login/functions/db.php');
+include_once('../login/functions/functions.php');
 
 ?>

@@ -32,7 +32,7 @@
                                     <a href="../reportes/estatus_gps.php"><i class="fa fa-map-marker"></i> Estatus GPS </a>
                                 </li>
                                 <li>
-                                    <a href="../reportes/info_ala.php"><i class="fa fa-tag"></i> Información Alarmas </a>
+                                    <a href="../reportes/info_ala.php"><i class="fa fa-tag"></i> Informe de Unidades </a>
                                 </li>
                             </ul>
                     </li>
@@ -69,7 +69,7 @@
                                 <a href="../estandar/operadores.php"><i class="fa fa-male"></i> Operadores </a>
                             </li>
                             <li>
-                                <a href="../estandar/operatividad.php"><i class="fa fa-tasks"></i> Operatividas</a>
+                                <a href="../estandar/operatividad.php"><i class="fa fa-tasks"></i> Operatividad</a>
                             </li>
                         </ul>
                     </li>

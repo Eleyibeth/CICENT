@@ -10,7 +10,7 @@
 
                 <!-- Page Heading -->
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
                         <h1 class="page-header">
                             <small>Reporte de Monitoreo de Entradas y Salidas de U.T.C. Programadas en DTTO Andes </small>
                         </h1>

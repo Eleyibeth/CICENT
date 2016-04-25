@@ -1,7 +1,7 @@
 <?php 
 
 
-/* helper functions */
+/******* helper functions *******/
 
 function clean($string){
 	return htmlentities($string);

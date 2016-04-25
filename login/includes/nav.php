@@ -20,7 +20,7 @@
 					<li>
 						<a href="logout.php">Cerrar Sesión</a>
 					</li>
-				<?php endif; ?>
+					<?php endif; ?>
 				</ul>
 			</div><!-- /.nav-collapse-->
 		</div>

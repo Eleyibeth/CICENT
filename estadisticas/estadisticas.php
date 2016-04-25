@@ -11,7 +11,7 @@
 
                 <!-- Page Heading -->
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
 
                         <h1 class="page-header"> 
                             <small>Estadisticas </small>
@@ -27,6 +27,11 @@
                     </div>
                 <!-- /.row -->
             </div>
+
+            <div class="container-fluid">
+
+                    <?php include_once('../template/nav_estadisticas.php') ?>
+                </div>
             <!-- /#wrapper -->
 
 

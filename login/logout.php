@@ -1,4 +1,4 @@
-<?php include_once("function/init.php");
+<?php include_once("../login/functions/init.php");
 
 session_destroy();
 
